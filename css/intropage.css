@@ -12,16 +12,20 @@ body{
  	padding-left: 2px;
  }
 
-
-
 li,a{
 	font-family:"Proxima Nova Thin";
 	font-weight: 500;
 	font-size: 20px;
 	color: #FFFFFF;
 	text-decoration: none;
+}
 
-
+button{
+	font-family:"Proxima Nova Thin";
+	font-weight: 1500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
 }
 .nav_links{
 	list-style: none;
@@ -67,7 +71,7 @@ li,a{
 }
 
 button{
-	background-color: #00FFFF;
+	background-color: aquamarine;
 	border: 20px;
 	border-radius: 2px;
 	font-size: 20px;
