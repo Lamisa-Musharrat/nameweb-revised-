@@ -1,5 +1,10 @@
- @import url(//db.onlinewebfonts.com/c/0d54578761902bda6813941de15e8f84?family=Proxima+Nova+Thin);
- body{
+
+@font-face{
+	font-family: "Proxima Nova Thin";
+	src: url("../fonts/proxima_nova_thin.ttf");
+}
+
+body{
  	background: url("../images/back.jpg") no-repeat;
  	background-size: none;
  	margin-left:0;
