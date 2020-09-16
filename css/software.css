@@ -1,0 +1,102 @@
+@font-face{
+	font-family: "Proxima Nova Thin";
+	src: url("../fonts/proxima_nova_thin.ttf");
+}
+
+body{
+	display: inline;
+	align-items: center;
+	padding: 0;
+	margin:0;
+	width:60%;
+
+}
+h1{
+  font-family: "Proxima Nova Thin";
+  font-style: normal;
+  font-weight: 100;
+  text-align: left;
+  font-size: 2.875em;
+  line-height: 1.217em;
+  border: 10px;
+  margin-left: 11.5%;
+  margin-top: 15%; 
+  padding: 0px;
+  color: #FFFFFF;
+}
+p{
+  font-family: "Proxima Nova Thin";
+  font-style: normal;
+  display:block;
+  font-weight: 100;
+  text-align: left;
+  font-size:1em;
+  line-height: 1.25em;
+  margin-left:11.5%;
+  margin-top: 0; 
+  padding: 0;
+  color: #959697;
+ 
+}
+div{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+.pics{
+	display:inline-block;
+	float: left;
+	padding:0;
+	margin-left: 0;
+	width: 150px;
+	height: 150px;
+	border: 0;
+	font-size: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+#cad{
+	display:inline-block;
+	float: left;
+	padding-left:77px;
+	margin-left:22px;
+	width:150px; 
+	height:150px;
+	font-size: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+footer{
+	display:inline-block;
+	vertical-align: middle;
+	margin-left:auto;
+	margin-top: 8%;
+	margin-right: auto;
+	text-align:center;
+}
+footer img{
+  width:8%;
+}
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 2.5em;
+		padding-top: 5%;
+	}
+	p{
+		font-size: 1.3em;
+		line-height: 1.9em;
+		margin-right: 10%;
+	}
+	#cad{
+		padding-left: 1.5%;
+		margin-left: 1.5%;
+	}
+	.pics{
+		margin-left:6.5%;
+		width: 150px;
+		height: auto;
+	}
+footer img{
+    width:30%;
+  }
+}
