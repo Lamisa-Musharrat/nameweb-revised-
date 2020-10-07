@@ -1,0 +1,142 @@
+@font-face{
+	font-family: "Proxima Nova Thin";
+	src: url("../fonts/proxima_nova_thin.ttf");
+}
+
+body{
+	display: inline;
+	background: url("../images/software.jpg") no-repeat;
+    background-size: cover;
+	align-items: center;
+	padding: 0;
+	margin:0;
+	width:60%;
+
+}
+h1{
+  font-family: "Proxima Nova Thin";
+  font-style: normal;
+  font-weight: 100;
+  text-align: left;
+  font-size: 2.875em;
+  line-height: 1.217em;
+  border: 10px;
+  margin-left: 11.5%;
+  margin-top: 10.5%; 
+  padding: 0px;
+  color: #FFFFFF;
+  margin-bottom: 2.5%;
+}
+p{
+  font-family: "Proxima Nova Thin";
+  font-style: normal;
+  display:block;
+  font-weight: 100;
+  text-align: left;
+  font-size:1em;
+  line-height: 1.25em;
+  margin-left:11.5%;
+  margin-top: 0; 
+  padding: 0;
+  color: #959697;
+  padding-bottom: 2%;
+}
+div{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+.abs,
+.pics,
+.ans,
+.rhino,
+.picss{
+	display:inline-block;
+	float: left;
+	padding:0;
+	margin-left: 0;
+	width: 150px;
+	height: 150px;
+	border: 0;
+	font-size: 0;
+	vertical-align: middle;
+	text-align: center;
+}
+#cad{
+	display:inline-block;
+	float: left;
+    margin-left: 98px;
+	width:150px; 
+	height:150px;
+	font-size: 0;
+	vertical-align: middle;
+	text-align: center;
+	padding-bottom: 0.7%;
+}
+.abs{
+	padding-bottom: 0.7%;
+}
+.ans{
+	padding-top:.8%!important;
+}
+.rhino{
+	padding-bottom: 0.6%;
+}
+footer{
+	display:inline-block;
+	vertical-align: middle;
+	margin-left:auto;
+	margin-top: 8%;
+	margin-right: auto;
+	text-align:center;
+}
+footer img{
+  width:8%;
+}
+@media only screen and (max-width: 800px) {
+	#cad{
+		margin-left: 5.8%;
+	}
+    .abs{
+    	margin-left: 5.8%;
+    }
+@media only screen and (max-width: 767px) {
+	body{
+    background: url("../images/softback.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  
+  }
+	h1{
+		font-size: 1.8em;
+		padding-top: 15%;
+		padding-left: 5%;
+	}
+	p{
+		font-size: .9em;
+		line-height: 1.9em;
+		margin-right: 25%;
+		padding-left: 5%;
+	}
+	#cad{
+		margin-left:75px;
+	
+	}
+	.pics{
+		margin-left:6.5%;
+		width: 150px;
+		height: auto;
+	}
+	.picss{
+		width: 150px;
+		height: auto;
+		margin-left:25%;
+	}
+	.abs, .pics, .ans, .rhino{
+		margin-left:20%;
+	}
+    footer img{
+    width:20%;
+    }
+}
