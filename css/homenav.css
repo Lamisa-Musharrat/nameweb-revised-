@@ -1,0 +1,100 @@
+ @font-face{
+  font-family: "Proxima Nova Thin";
+  src: url("../fonts/proxima_nova_thin.ttf");
+}
+nav{
+  font-family: "Proxima Nova Thin";
+}
+.cm{
+  font-family: "Proxima Nova Thin"!important;
+  font-weight: lighter;
+}
+.logo img{
+  width: 8%;
+}
+a:hover{
+  text-decoration: none!important;
+}
+nav:after{
+  content: '';
+  clear: both;
+  display: table;
+}
+div .logo{
+  display: inline-block;
+}
+nav .logo{
+  float: left;
+  display: inline-block;
+  line-height: 0em;
+  padding-left: 60px;
+  margin-top: 4%;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+  list-style: none;
+  position: relative;
+}
+nav ul li{
+  float: left;
+  display: inline-block;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+
+}
+nav ul li a:hover{
+  color: #659EC7;
+ font-size: 25px;
+ font-weight: bolder;
+}
+nav ul ul li a:hover{
+  box-shadow: none;
+}
+nav ul ul{
+  position: absolute;
+  top: 90px;
+  border-top: 3px solid #659EC7;
+  opacity: 0;
+  visibility: hidden;
+  transition:ease top .9s;
+  padding-left: 0px;
+}
+nav ul ul ul{
+  border-top: none;
+}
+nav ul li:hover > ul{
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+nav ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 150px;
+  float: none;
+  display: list-item;
+  border-bottom: 1px solid transparent;
+  background-color:#282e34!important;
+}
+nav ul ul li a{
+  line-height: 50px;
+}
+nav ul ul ul li{
+  position: relative;
+  top: -60px;
+  left: 150px;
+}
+.show,.icon,input{
+  display: none;
+}
+.fa-plus{
+  font-size: 15px;
+  margin-left: 40px;
+}
